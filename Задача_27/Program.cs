@@ -3,8 +3,10 @@
 // 82 -> 10
 // 9012 -> 12
 
-Console.Write("Введите число: ");
-int num = Convert.ToInt32(Console.ReadLine());
+int SumNumbers (int num)
+{
+// Console.Write("Введите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
 int sum1 = 0;
 int i = 0;
 {
@@ -20,5 +22,8 @@ if (num > 9)
       
     }
 
- Console.WriteLine(sum1);  
+ return sum1;  
 }
+}
+int res = SumNumbers (9012);
+Console.WriteLine(res);
